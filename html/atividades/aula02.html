@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bola Vermelha Girando Tridimensionalmente</title>
+    <style>
+      /* Define o estilo da bola */
+      #bola {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-style: preserve-3d;
+        animation: girar 2s linear infinite;
+      }
+
+      /* Define a animação de rotação tridimensional */
+      @keyframes girar {
+        from { transform: translateZ(-100px) rotateY(0); }
+        to { transform: translateZ(-100px) rotateY(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="bola"></div>
+    <img src="/imagens/imagem principal.svg" alt="">
+  </body>
+</html>

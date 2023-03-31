@@ -1,0 +1,24 @@
+
+
+
+
+.img-exp{
+    margin-top: 5%;
+    border: solid 4px #66ff66;
+    padding: 5%;
+}
+
+.img-exp2{
+    vertical-align: top;
+    margin-top: 10%;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(203, 203, 203);
+}
+

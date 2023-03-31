@@ -1,0 +1,3 @@
+npx create-react-app bola-girando
+cd bola-girando
+npm start
