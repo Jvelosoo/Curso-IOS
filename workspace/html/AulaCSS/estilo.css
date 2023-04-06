@@ -1,0 +1,17 @@
+html{
+    font-family: 'Alkatra', cursive;
+}
+
+body{
+    background-color: #282634;
+}
+
+div{
+    background-color: #fecea8;
+    color: #e84a5f;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
