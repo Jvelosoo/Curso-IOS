@@ -1,0 +1,23 @@
+.cabecalho{
+    background-color: blue;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+p.paragrafo{
+    color: red;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copy{
+    color: blueviolet;
+}
+
+.veloso{
+    background-color: black;
+}
