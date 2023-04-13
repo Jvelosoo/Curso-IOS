@@ -1,0 +1,38 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #ccc;
+	padding: 1rem;
+}
+
+article, section {
+	background-color: #eee;
+	margin: 2rem;
+	padding: 1rem;
+}
+
+section p {
+	margin-top: 1rem;
+}
+
+footer {
+	background-color: #ccc;
+	padding: 1rem;
+	text-align: center;
+}
+
+.botao {
+	display: inline-block;
+	background-color: #007bff;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	border-radius: 0.25rem;
+	transition: all 0.2s ease-in-out;
+}
+
+.botao:hover {
+	background-color: #0069d9;
+}
