@@ -1,0 +1,14 @@
+img{
+    width: 400px;
+    height: 300px;
+}
+figure{
+    width: 400px;
+    padding: 5px;
+    border: 2px solid #000000;
+
+}
+
+figcaption{
+    text-align: center;
+}

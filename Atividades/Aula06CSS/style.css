@@ -1,0 +1,13 @@
+#container-imagem{
+    border: solid 10px greenyellow;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.passat{
+    margin: 100px;
+}
+
