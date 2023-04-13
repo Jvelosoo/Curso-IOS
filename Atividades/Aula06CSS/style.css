@@ -1,13 +1,27 @@
-#container-imagem{
-    border: solid 10px greenyellow;
+            /* define margem e padding 0 para todo o HTML */
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            /* adiciona borda de 1px sólida preta ao corpo e centraliza o conteúdo */
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 100px;
-}
+            /* define estilo para o formulário */
+            form {
 
-.passat{
-    margin: 100px;
-}
+                margin-top: 20px;
+                border: 10px solid greenyellow;
+                text-align: center;
+                margin-top: 10%;
 
+            }
+            /* define estilo para o botão de envio */
+            button[type='submit'] {
+                margin-top: 20px;
+            }
+            /* define estilo para o label dos campos obrigatórios */
+            label.required::after {
+                content: '*';
+                color: red;
+            }

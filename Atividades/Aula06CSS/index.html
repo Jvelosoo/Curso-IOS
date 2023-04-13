@@ -5,13 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div id="container-imagem">
-        <img src="/imagens/golf.jpg" alt="" class="golf">
-        <img src="/imagens/passat.png" alt="" class="passat">
-    </div>
-    
-</body>
+
+    </head>
+    <body>
+        <form>
+            <h1>Formulário</h1>
+            <label for="nome" class="required">Nome:</label>
+            <input type="text" id="nome" name="nome" required /><br />
+
+            <label for="sobrenome" class="required">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required /><br />
+
+            <label for="data_nascimento" class="required"
+                >Data de Nascimento:</label
+            >
+            <input
+                type="date"
+                id="data_nascimento"
+                name="data_nascimento"
+                required
+            /><br />
+
+            <label for="email" class="required">E-mail:</label>
+            <input type="email" id="email" name="email" required /><br />
+
+            <label for="telefone_celular" class="required"
+                >Telefone Celular:</label
+            >
+            <input
+                type="tel"
+                id="telefone_celular"
+                name="telefone_celular"
+                required
+            /><br />
+
+            <label for="telefone_fixo">Telefone Fixo:</label>
+            <input type="tel" id="telefone_fixo" name="telefone_fixo" /><br />
+
+            <label for="escolaridade" class="required">Escolaridade:</label>
+            <select id="escolaridade" name="escolaridade" required>
+                <option value="">Selecione</option>
+                <option value="fundamental">Fundamental</option>
+                <option value="medio">Médio</option>
+                <option value="superior">Superior</option></select
+            ><br />
+
+            <label for="cpf" class="required">CPF:</label>
+            <input type="text" id="cpf" name="cpf" required /><br />
+
+            <label for="profissao" class="required">Profissão:</label>
+            <input type="text" id="profissao" name="profissao" required /><br />
+
+            <label for="Cidade" class="required">Cidade:</label>
+            <input type="text" id="Cidade" name="Cidade" required /><br />
+
+            <label for="Estado" class="required">Estado:</label>
+            <input type="text" id="profissao" name="Estado" required /><br />
+
+            <label for="CEP" class="required">CEP:</label>
+            <input type="text" id="CEP" name="profissao" required /><br />
+
+            <label for="sexo" class="required">Sexo:</label><br />
+            <input
+                type="radio"
+                id="sexo_m"
+                name="sexo"
+                value="masculino"
+                required
+            />
+            <label for="sexo_m">Masculino</label><br />
+            <input
+                type="radio"
+                id="sexo_f"
+                name="sexo"
+                value="feminino"
+                required
+            />
+            <label for="sexo_f">Feminino</label><br />
+
+            <label for="pais" class="required">País:</label>
+            <input type="text" id="pais" name="pais" />
+            <input type="submit">
+        </form>
+    </body>
 </html>
+
