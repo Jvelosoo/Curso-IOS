@@ -5,41 +5,38 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr) ;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    grid-template-areas: "filho1 filho2" "filho3 filho4";
+    grid-template-rows: 50px 50px 50px ;
+    grid-gap: 10px 10px;
+    grid-template-areas: ". filho2 filho3 ." " filho1 . . filho4" ;
     border: solid 2px greenyellow;
+
+
   }
   
   .item-1 {
     background-color: red;
     border: solid 2px greenyellow;
-    height: 200px;
-    width: 200px;
     grid-area: filho1;
   }
   
   .item-2 {
     background-color: blue;
     border: solid 2px greenyellow;
-    height: 200px;
-    width: 200px;
+
     grid-area: filho2;
   }
   
   .item-3 {
     background-color: green;
     border: solid 2px greenyellow;
-    height: 200px;
-    width: 200px;
+
     grid-area: filho3;
   }
   
   .item-4 {
     background-color: yellow;
     border: solid 2px greenyellow;
-    height: 200px;
-    width: 200px;
+
     grid-area: filho4;
   }
 
