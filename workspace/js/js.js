@@ -1,12 +1,8 @@
-import React from 'react';
-import './App.css';
+console.clear()
+const turma = [
+  ["turma 1", "gabriel", 7],
+  ["turma 1", "veloso", 4],
+  ["turma 1", "gabriel", 2]
+]
 
-function App() {
-  return (
-    <div className="App">
-      <div className="ball"></div>
-    </div>
-  );
-}
-
-export default App;
+console.table(turma)
